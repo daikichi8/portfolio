@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2017",
+      "esnext"
+    ],
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "strict":false,
+    "esModuleInterop": true,
+    "typeRoots": ["types", "node_modules/@types"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

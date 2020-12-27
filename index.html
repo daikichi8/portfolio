@@ -1,1 +1,33 @@
-hello world
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>KTrends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">
+  </head>
+  <body>
+  <div id="root"></div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="/~daikichi/develop-ktrends/dist/main.js"></script>
+  <script type="text/javascript">
+  const resizeObserver = new ResizeObserver(entries => {
+   // We wrap it in requestAnimationFrame to avoid this error - ResizeObserver loop limit exceeded
+  window.requestAnimationFrame(() => {
+    if (!Array.isArray(entries) || !entries.length) {
+      return;
+    }
+    // your code
+    });
+  });
+  </script>
+  </body>
+</html>

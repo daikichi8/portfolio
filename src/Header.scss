@@ -1,0 +1,78 @@
+@import "./src/Variables.scss";
+
+.navbar {
+  text-align: center!important;
+  display: block;
+  top:0;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: none;
+  background-color: $header-color;
+  position: fixed;
+  height: 60px!important;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.navbar-font{
+  cursor:pointer;
+  color: $header-font-color!important;
+  font-size: 1.7em;
+  font-weight: bolder;
+  padding-left:30px;
+  padding-top:30px;
+}
+
+.top-tab-ul
+{
+  list-style:none;
+  padding:0;
+  margin: 0 auto;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  li a {
+    display: table;
+    text-decoration:none;
+    background:rgba($gray-light,.25);
+    color:$gray-light;
+    font-size:18px;
+    float:left;
+    width:10%;
+    height:30px;
+    text-align:center;
+    cursor:pointer;
+    transition:.5s ease;
+    &:hover .top_tab_close{
+      color: #FFF;
+      width: 40px;
+      height:40px;
+    }
+    .top_tab_close:hover{
+      color: #858585; /* 少し濃い緑色 */
+      width: 40px;
+      height:40px;
+    }
+    
+    .top_tab_close:active{
+      color: #69821b; /* 濃い緑色 */
+      width: 40px;
+      height:40px;
+    }
+  }
+
+  .active .tab1 {
+    background:$main;
+    color:$white;
+  }
+  .active .tab2{
+    background:#ff8585;
+    color:$white;
+  }
+  .active .tab3{
+    background:#E8CAAF;
+    color:$white;
+  }
+}

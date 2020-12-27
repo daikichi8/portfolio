@@ -1,0 +1,11 @@
+@import "./src/Variables.scss";
+
+.container_div{
+  width:100%;
+  height:100%;
+}
+
+.add_venue_list{
+  overflow: auto;
+  height: 200px;
+}
