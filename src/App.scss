@@ -11,6 +11,7 @@ main{
   height: 100%;
   width: 100%;
   background-image: url('../resources/background.png');
+  background-size:contain;
   -webkit-transition: transform .7s ease-in-out;
   -moz-transition: transform .7s ease-in-out;
   -ms-transition: transform .7s ease-in-out;
