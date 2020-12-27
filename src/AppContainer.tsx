@@ -26,6 +26,7 @@ export default class AppContainer extends React.Component <Props,State>
     return(
       <div className="container_div">
         <div className = "container" >
+          
         </div> 
       </div>
     )

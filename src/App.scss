@@ -1,9 +1,11 @@
 @import "./src/Variables.scss";
 
+
 body {
   background-color:#444 !important;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  background-image: url('../resources/background.png');
 }
 
 main{
