@@ -2,15 +2,15 @@
 
 
 body {
-  background-color:#444 !important;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-image: url('../resources/background.png');
 }
 
 main{
   z-index: 0;
   height: 100%;
+  width: 100%;
+  background-image: url('../resources/background.png');
   -webkit-transition: transform .7s ease-in-out;
   -moz-transition: transform .7s ease-in-out;
   -ms-transition: transform .7s ease-in-out;
